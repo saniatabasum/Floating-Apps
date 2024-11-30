@@ -1,0 +1,63 @@
+*{
+   margin-left: 5px;
+    padding-left:2px ;
+}
+body{
+    box-sizing: border-box;
+    font-family: "IBM Plex Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    background-color: white;
+}
+.Icons{
+    display: flex;
+    position: fixed;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+}
+.Icons ul li{
+    list-style: none;
+}
+.Icons ul li a{
+    width: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    text-decoration: none;
+   color: white;
+    margin-left: -120px;
+    transition: margin-left 500ms;
+}
+.Icons ul li a:hover{
+    margin-left: 0;
+}
+.Icons ul li a i{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10px;
+    font-size: 25px;
+}
+.Whatsapp{
+    background-color: forestgreen;
+}
+.YouTube{
+    background-color:red;
+}
+.Facebook{
+    background-color:rgb(19, 146, 231);
+}
+.Instagram{
+    background-color: rgb(241, 9, 191);
+}
+.Twitter{
+    background-color:rgb(13, 99, 156);
+}
+.LinkedIn{
+    background-color:rgb(113, 180, 224);
+}
+.GitHub{
+    background-color:black;
+}
